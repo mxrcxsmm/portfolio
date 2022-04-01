@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
+
 html{
     font-size: 16px;
 }
@@ -35,6 +38,7 @@ h6{
 /* clases predefinidas */
 * {
     box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
 }
 
 body{
@@ -84,6 +88,16 @@ body{
 }
 
 /* Otras clases */
+.centrado{
+    text-align: center;
+}
+
+img{
+    height: 20vw;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
 /* clase para centrar contenido en horizontal y vertical (lo centra respecto al elemento padre) */
 .flex{
     display: flex;
